@@ -1,0 +1,28 @@
+{
+    "name":"PurgeVarnishCache",
+    "version":"0.1.0",
+    "author":[
+        "StarHeartHunt"
+    ],
+    "url":"https://github.com/MooncellWiki/PurgeVarnishCache",
+    "descriptionmsg":"purgevarnishcache-ext-desc",
+    "license-name":"MIT",
+    "type":"hooks",
+    "Hooks": {
+		"TitleSquidURLs":"PurgeVarnishCache\\Hooks::onTitleSquidURLs"
+	},
+    "AutoloadClasses":{
+        "PurgeVarnishCache\\Utils":"includes/Utils.php",
+        "PurgeVarnishCache\\Hooks": "includes/Hooks.php"
+    },
+    "MessagesDirs":{
+        "PurgeVarnishCache":[
+            "i18n"
+        ]
+    },
+    "ExtensionMessagesFiles":{
+        "PurgeVarnishCacheAlias":"PurgeVarnishCache.i18n.alias.php"
+    },
+    "manifest_version":2
+    
+}
